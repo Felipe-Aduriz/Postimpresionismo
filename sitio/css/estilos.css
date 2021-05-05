@@ -1,0 +1,390 @@
+main{margin: 0%;
+     padding: 0%;
+       background-color: #19a6b7;}
+     
+     @font-face{ font-family:"Oswald";
+        src: url(fuentes/Oswald-VariableFont_wght);}
+
+
+body{ background-color: #19a6b7;}
+
+ .portada { width: 100%;
+           height: auto;
+           position: absolute;
+        }
+ .arroba{display: flex; justify-content: center; align-items: flex-end;
+        padding-top: 0cm; padding-bottom: 0cm;}
+
+ .navcolor{ background-color: #cb285d; }
+
+ .navbar{ padding-top: 0rem;
+    padding-bottom: 0rem;}
+
+ .arrobabusc{display: flex;justify-content: center; 
+                align-items: flex-start; width: 35%; flex-direction: column;}
+
+ .titulo{ font-family: 'Oswald', sans-serif; font-size: 50px; text-decoration: none; color: white; transition: .5s;}
+ .titulo:hover{ color: teal;}
+ .titulos{ font-family: 'Oswald', sans-serif; font-size: 50px;}
+
+ .titulero{ font-family: 'Oswald', sans-serif; font-size: 25px; position: relative; color: white;}
+
+ .botons{ display: flex;justify-content: flex-end; align-items: flex-start; 
+        flex-direction: row; flex-wrap: wrap; position: relative}
+
+ .contenedorheader{display: flex; flex-direction: row;}
+
+ .botonero{display: flex; font-family: 'Oswald', sans-serif; text-decoration: none; color: white; transition: color .5s ; }
+ .botonero:hover{ color: black;}
+
+
+ .arrobatitu{display: flex; justify-content: center; align-items: flex-start;
+            padding-top: 0cm; padding-bottom: 0cm; position: relative; color: white; }
+
+
+
+ .colorbot1{ background-color:blueviolet; border-radius: 12%; width: 15%; transition: .5s ;}
+ .colorbot1:hover{ background-color: violet;}
+ .colorbot2{ background-color:#e64077; border-radius: 12%; width: 15%; transition: .5s }
+ .colorbot2:hover{ background-color: lightpink;}
+ .textobot{ display: flex; justify-content: center;}
+
+ .textogale{font-family: 'Oswald', sans-serif; color: white; text-decoration: none; transition: .5s ;}
+
+ .textogale:hover{ color: rgb(154, 47, 255);}
+
+ .imagenes{ background-color:#a7d4ee; display: flex;
+       justify-content: center; padding-bottom: 0.1% ; 
+       padding-top:2%;padding-left: 5%; padding-right: 5%; 
+       flex-direction: column; border-radius: 5%;}
+
+ .imagenes2{ background-color:rgb(36, 43, 54); display: flex;
+              justify-content: center; padding-bottom: 0.1% ; 
+              padding-top:2%;padding-left: 5%; padding-right: 5%; 
+              flex-direction: column; border-radius: 5%;}
+ .imagenes3{ background-color:rgb(255, 92, 201); display: flex;
+                     justify-content: center; padding-bottom: 0.1% ; 
+                     padding-top:2%;padding-left: 5%; padding-right: 5%; 
+                     flex-direction: column; border-radius: 5%;}
+ 
+ .imagenes4{ background-color:rgb(252, 78, 78); display: flex;
+                            justify-content: center; padding-bottom: 0.1% ; 
+                            padding-top:2%;padding-left: 5%; padding-right: 5%; 
+                            flex-direction: column; border-radius: 5%;}
+ 
+ .inicio{  background-color:rgb(94, 0, 97); display: flex;
+       justify-content: center; padding-bottom: 0.1% ; 
+       padding-top:2%;padding-left: 5%; padding-right: 5%; 
+       flex-direction: column; border-radius: 5%; padding-bottom: 40px;}
+
+
+ .contenedorimagenes{display: flex; justify-content: center; align-items: center; position: relative;}
+
+ 
+ .contenedorinicio{display: flex; justify-content: center; align-items: center; position: relative;}
+
+ .texto{ font-family: 'Oswald', sans-serif; font-size: 30px;}
+ .texto2{ font-family: 'Oswald', sans-serif; font-size: 30px; color: white;}
+ .textofooter{ color: white; }
+ .textoinicio{ font-family: 'Oswald', sans-serif; color: white;}
+ 
+ .textotodos{ font-family: 'Oswald', sans-serif; color: white; font-size: 130%;}
+
+ .textobras{font-family: 'Oswald', sans-serif; color: white; }
+
+ .galetitu{ font-family: 'Oswald', sans-serif; color:black ; display: flex; justify-content: center;}
+
+ .contenedortextos{ display: flex; justify-content: flex-start;}
+ .contenedorcontenido{ display: flex; justify-content: center;}
+ .contenedortextofooter{ display: flex; background-color: red; padding-top: 10px; align-items: center;
+                         flex-direction: row; justify-content: space-between;}
+        
+ .contenedorarles{ display: flex; justify-content: space-around; flex-direction: row; align-items: center;}
+
+ .contenedoredes{ display: flex; flex-direction: row; justify-content: flex-end; align-items: center;}
+
+ .contenedorgale{ display: flex; justify-content: center;}
+
+
+ .colorcito1{ background-color:#ff71b4; border-radius: 11%; padding-right: 2.5%; padding-left:2.5% ;}
+ .colorcito2{ background-color:#b43a96; border-radius: 11%; padding-right: 2.5%; padding-left:2.5% ;}
+ .colorcito3{ background-color:#a500f1; border-radius: 11%; padding-right: 2.5%; padding-left:2.5% ;}
+ .tamañocontenido{ font-size: 25px}
+
+ .redes{ width: 5%; height: 5%;}
+
+ .redex{ display: flex; justify-content: flex-end; align-items: center;} 
+
+
+ 
+ .iconos{ display: flex; justify-content: flex-start; align-items: flex-start; width: 5%;}
+
+ .arles{ max-width: 40%;}
+
+ .breve{  background-color:rgb(97, 0, 24); display: flex;
+       justify-content: center; padding-bottom: 0.1% ; 
+       padding-top:2%;padding-left: 5%; padding-right: 5%; 
+       flex-direction: column; border-radius: 5%; padding-bottom: 40px;}
+
+.breve2{  background-color:rgb(77, 37, 0); display: flex;
+       justify-content: center; padding-bottom: 0.1% ; 
+       padding-top:2%;padding-left: 5%; padding-right: 5%; 
+       flex-direction: column; border-radius: 5%; padding-bottom: 40px;}
+
+
+.todos{ background-color:rgb(118, 0, 187); display: flex;
+       justify-content: center; padding-bottom: 0.1% ; 
+       padding-top:2%;padding-left: 5%; padding-right: 5%; 
+       flex-direction: column; border-radius: 5%; padding-bottom: 40px;}
+
+.vangoghos{background-color:rgb(34, 27, 59); display: flex;
+       justify-content: center; padding-bottom: 0.1% ; 
+       padding-top:2%;padding-left: 5%; padding-right: 5%; 
+       flex-direction: column; border-radius: 5%; padding-bottom: 40px;}
+
+.vangoghos2{background-color:rgb(110, 129, 24); display: flex;
+       justify-content: center; padding-bottom: 0.1% ; 
+       padding-top:2%;padding-left: 5%; padding-right: 5%; 
+       flex-direction: column; border-radius: 5%; padding-bottom: 40px;}
+
+.brobras {background-color:rgb(0, 31, 97); display: flex;
+       justify-content: center; padding-bottom: 0.1% ; 
+       padding-top:2%;padding-left: 5%; padding-right: 5%; 
+       flex-direction: column; border-radius: 5%; padding-bottom: 40px;}
+.brobras2 {background-color:rgb(194, 4, 77); display: flex;
+              justify-content: center; padding-bottom: 0.1% ; 
+              padding-top:2%;padding-left: 5%; padding-right: 5%; 
+              flex-direction: column; border-radius: 5%; padding-bottom: 40px;}   
+
+
+.brobras7 { background-color:rgb(70, 30, 63); display: flex;
+       justify-content: center; padding-bottom: 0.1% ; 
+       padding-top:2%;padding-left: 5%; padding-right: 5%; 
+       flex-direction: column; border-radius: 5%; padding-bottom: 40px;}
+
+.fotosgaleriax{ display: flex; flex-direction: row; justify-content: center; align-items:flex-start;}
+
+
+.brobrangogh{ background-color:rgb(2, 76, 173); display: flex;
+       justify-content: center; padding-bottom: 0.1% ; 
+       padding-top:2%;padding-left: 5%; padding-right: 5%; 
+       flex-direction: column; border-radius: 5%; padding-bottom: 40px;}
+
+.brobrautrec{background-color:rgb(135, 65, 192); display: flex;
+       justify-content: center; padding-bottom: 0.1% ; 
+       padding-top:2%;padding-left: 5%; padding-right: 5%; 
+       flex-direction: column; border-radius: 5%; padding-bottom: 40px;}
+              
+.brobrauguin{ background-color:rgb(180, 77, 70); display: flex;
+       justify-content: center; padding-bottom: 0.1% ; 
+       padding-top:2%;padding-left: 5%; padding-right: 5%; 
+       flex-direction: column; border-radius: 5%; padding-bottom: 40px;}
+
+  .iniciarsesion{ display: flex; justify-content: center;}
+
+  .obras{ display: flex; justify-content: center;}
+  .filosofía{ display: flex; justify-content: center;}
+
+  .quienes{ display: flex; justify-content: center;}
+
+  .botongale{ background-color:blueviolet; border-radius: 12%; width: 15%; transition: .5s ;}
+  .cezanne{ background-color:rgb(84, 91, 190); display: flex;
+       justify-content: center; padding-bottom: 0.1% ; 
+       padding-top:2%;padding-left: 5%; padding-right: 5%; 
+       flex-direction: row; border-radius: 5%; padding-bottom: 40px; align-items: center;}
+
+ .gauguin{ background-color:rgb(190, 188, 84); display: flex;
+       justify-content: center; padding-bottom: 0.1% ; 
+       padding-top:2%;padding-left: 5%; padding-right: 5%; 
+       flex-direction: row; border-radius: 5%; padding-bottom: 40px; align-items: center;}
+  .toulouse{ background-color:rgb(190, 84, 181); display: flex;
+       justify-content: center; padding-bottom: 0.1% ; 
+       padding-top:2%;padding-left: 5%; padding-right: 5%; 
+       flex-direction: row; border-radius: 5%; padding-bottom: 40px; align-items: center;}
+
+ .toilette{ display: flex;
+       justify-content: center; padding-bottom: 0.1% ; 
+       padding-top:2%;padding-left: 5%; padding-right: 5%; 
+       flex-direction: row; border-radius: 5%; padding-bottom: 40px; align-items: center;}
+
+.footercenter{ display: flex; justify-content: center;}
+
+.galeria{ display: flex; flex-direction:column; justify-content: center; align-items: center;}
+
+
+
+/* intento lightbox normal */
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+/* lightbox bootstrap intento */ 
+
+.lightbox-gallery {
+  background-image: linear-gradient(#4A148C, #E53935);
+  background-repeat: no-repeat;
+  color: #000;
+  overflow-x: hidden
+}
+
+.lightbox-gallery p {
+  color: #fff
+}
+
+.lightbox-gallery h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: #fff
+}
+
+@media (max-width:767px) {
+  .lightbox-gallery h2 {
+      margin-bottom: 25px;
+      padding-top: 25px;
+      font-size: 24px
+  }
+}
+
+.lightbox-gallery .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 40px
+}
+
+.lightbox-gallery .intro p {
+  margin-bottom: 0
+}
+
+.lightbox-gallery .photos {
+  padding-bottom: 20px
+}
+
+.lightbox-gallery .item {
+  padding-bottom: 30px
+}
